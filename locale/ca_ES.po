@@ -2,6 +2,14 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "error:party.party:"
+msgid ""
+"You cannot uncheck the supplier for a party which is associated to "
+"purchases."
+msgstr ""
+"No pot desactivar la opció de proveidor del tercer quan està associat amb "
+"compres."
+
 msgctxt "field:party.party,supplier:"
 msgid "Supplier"
 msgstr "Proveïdor"
