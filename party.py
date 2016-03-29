@@ -7,10 +7,10 @@ from trytond.transaction import Transaction
 
 
 __all__ = ['Party']
-__metaclass__ = PoolMeta
 
 
 class Party:
+    __metaclass__ = PoolMeta
     __name__ = 'party.party'
 
     supplier = fields.Boolean('Supplier')
