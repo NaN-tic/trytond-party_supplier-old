@@ -12,7 +12,6 @@ __all__ = ['Party']
 class Party:
     __metaclass__ = PoolMeta
     __name__ = 'party.party'
-
     supplier = fields.Boolean('Supplier')
 
     @classmethod
