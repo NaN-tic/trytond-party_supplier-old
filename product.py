@@ -2,16 +2,16 @@
 # copyright notices and license terms.
 from trytond.pool import PoolMeta
 
-__all__ = ['Purchase']
+__all__ = ['ProductSupplier']
 
 
-class Purchase:
+class ProductSupplier:
     __metaclass__ = PoolMeta
-    __name__ = 'purchase.purchase'
+    __name__ = 'purchase.product_supplier'
 
     @classmethod
     def __setup__(cls):
-        super(Purchase, cls).__setup__()
+        super(ProductSupplier, cls).__setup__()
         new_domain = ('supplier', '=', True)
         domain = cls.party.domain[:]
         if domain and new_domain not in domain:
